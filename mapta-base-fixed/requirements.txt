@@ -1,0 +1,16 @@
+# --- Agent (main.py) ---
+openai>=1.40
+httpx>=0.27
+aiohttp>=3.9
+python-dotenv>=1.0
+
+# --- Log analysis (analyze_logs.py) ---
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.9
+seaborn>=0.13
+scipy>=1.11
+plotly>=5.20
+# Static PNG/PDF export for the Sankey diagram (needs a Chrome install;
+# without it the HTML version is still written).
+kaleido>=0.2

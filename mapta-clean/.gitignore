@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+.env
+scan-results/
+scan_usage.log
+*usage_log_*.json
+targets.txt
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store

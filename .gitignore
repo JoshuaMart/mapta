@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets and local config
+.env
+
+# Run artifacts
+scan-results/
+scan_usage.log
+usage_log_*.json
+*_usage_log_*.json
+targets.txt
+
+# OS / editors
+.DS_Store
+
+# XBOW validation benchmarks: a 1.4 GB clone of
+# github.com/xbow-engineering/validation-benchmarks with local build fixes.
+# See xben-benchmarks/NOTES.md for what was changed and why.
+xben-benchmarks/
